@@ -1,4 +1,3 @@
-```python
 import json
 import os
 
@@ -39,4 +38,3 @@ print("=" * 50)
 print(f"Channels : {len(channels)}")
 print(f"Output   : {OUTPUT_FILE}")
 print("=" * 50)
-```
