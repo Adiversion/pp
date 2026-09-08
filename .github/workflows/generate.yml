@@ -16,15 +16,14 @@ permissions:
   contents: write
 
 jobs:
-
   generate:
-
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -48,5 +47,6 @@ jobs:
             echo "No playlist changes."
           else
             git commit -m "Update IPTV playlist"
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi
