@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local secrets
+.env
+
+# Local generated playlist containing credential
+channels.m3u
