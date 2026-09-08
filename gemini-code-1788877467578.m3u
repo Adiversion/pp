@@ -1,0 +1,7 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="Channel1" group-title="Live", My Channel 1
+http://rr3.tvdosug.net/~201c530646afaf2b318ce39031c622e319c/94683/hls/pl.m3u8
+
+#EXTINF:-1 tvg-id="Channel2" group-title="Live", My Channel 2
+http://233d3515.kazmazpaz.ru/iptv/WLMTKVG728H5RP/20090/manifest.m3u8[cite: 1]
